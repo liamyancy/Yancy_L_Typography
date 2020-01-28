@@ -1,0 +1,182 @@
+@charset "UTF-8"
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2 {
+	font-family: 'Teko', sans-serif;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+}
+
+p:first-letter {
+	font-size: 20px;
+}
+
+.sideBars {
+	margin: 0 auto;
+	background-color: black;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+	background-color: #201d1e;
+}
+
+.navLogo {
+	margin-left: 50px;
+	padding: 10px;
+}
+
+.hero {
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+.heroText h1 {
+	text-align: center;
+}
+
+.heroText h2 {
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: 'Merriweather', serif; 
+	font-size: 14px;
+}
+
+.heroText p {
+	margin-top: 10px;
+	margin-left: 10px;
+	line-height: 22px;
+	padding-right: 10px;
+}
+
+.whyMuskoka {
+	margin-top: 20px;
+	color: white;
+	line-height: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.whyMuskoka h2 {
+	text-align: center;
+}
+
+.values {
+	text-align: center;
+	line-height: 22px;
+	margin-top: 10px;
+}
+
+.values p {
+	letter-spacing: 2px;
+}
+
+.values p:first-letter {
+	font-size: 14px;
+}
+
+.promotions {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: white;
+}
+
+.promotions h2 {
+	text-align: center;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.promoText {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: white;
+	text-align: center;
+	line-height: 22px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+.resolve, .caring, .authentic, .unique, .thirsty {
+	width: 300px;
+}
+
+.subPromotions {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	color: white;
+	margin-top: 20px;
+}
+
+.subPromotions h2 {
+	text-align: center;
+}
+
+.subPromoText {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	color: white;
+	text-align: center;
+	line-height: 22px;
+	margin-top: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+}
+
+.beers {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 150px;
+	width: 1400px;
+}
+
+.beers h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.beers ul {
+	line-height: 16px;
+	font-family: 'Merriweather', serif;
+}
+
+.contactArea {
+	margin-top: 20px;
+	line-height: 22px;
+}
+.contactArea h2 {
+	margin-bottom: 10px;
+}
+
+.footerLogo {
+	margin-left: 350px;
+	margin-top: 40px;
+	padding: 10px;
+}
