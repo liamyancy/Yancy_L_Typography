@@ -1,1 +1,1 @@
-# Yancy_L_Typography
+# Typography Assignment
